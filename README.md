@@ -6,25 +6,25 @@ read from markdown (*.md), publish it into blog
 
 # Initial Steps
 
-1. setup
+- setup
 
 ```sh
 $ npm install
 ```
 
-1. startup server
+- startup server
 
 ```sh
 $ node bin/www
 ```
 
-    OR startup server in background
+- startup server in background
 
 ```sh
 $ forever start bin/www
 ```
 
-1. list and stop server in background
+- list and stop server in background
 
 ```sh
 $ forever list // finds out the running instance
