@@ -2,8 +2,17 @@ extends ./_bootstrap
 append styles
   // Custom styles for this template
   link(href='./css/jumbotron-narrow.css', rel='stylesheet')
+  style(type='text/css').
+    .shadow {
+      -moz-box-shadow: 12px 0 15px -4px #999, -12px 0 8px -4px #999;
+      -webkit-box-shadow: 12px 0 15px -4px #999, -12px 0 8px -4px #999;
+    }
+    body {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
 block body
-  .container
+  .container.shadow
     .header.clearfix
       nav
         ul.nav.nav-pills.pull-right
