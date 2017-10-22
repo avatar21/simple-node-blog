@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/a2c5e146eb703147870f4c8be4daabe72a7d9212/simplemde/simplemde.d.ts",
+    "raw": "registry:dt/simplemde#0.0.0+20160720062200",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/a2c5e146eb703147870f4c8be4daabe72a7d9212/simplemde/simplemde.d.ts"
+  }
+}

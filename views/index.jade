@@ -1,0 +1,33 @@
+extends ./_bootstrap
+append styles
+  // Custom styles for this template
+  link(href='./css/jumbotron-narrow.css', rel='stylesheet')
+block body
+  .container
+    .header.clearfix
+      nav
+        ul.nav.nav-pills.pull-right
+          li.active(role='presentation')
+            a(href='#') 主页
+          li(role='presentation')
+            a(href='#') 关于
+          li(role='presentation')
+            a(href='#') 联系
+      h3.text-muted #{title}
+    .jumbotron
+      h1 欢迎，棉花糖网
+      p.lead
+        | #{message}
+      p
+        a.btn.btn-lg.btn-success(href='#', role='button') 注册
+    .row.marketing
+      each blog,i in blogs.blogs
+        span.col-xs-12.col-sm-12.col-md-12.col-lg-12
+          div.panel.panel-warning
+            div.panel-heading
+              strong #{blog.id}
+            div.panel-body.lead !{blog.content}
+
+    footer.footer
+      p © Minfaatong.tk 2014
+      script(src='https://s22.cnzz.com/z_stat.php?id=1265607759&web_id=1265607759')
